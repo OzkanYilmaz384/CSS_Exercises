@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ground_color: #011212;
+    --ball_width: 100px;
+    --ball_height: 100px;
+    --yellow: #ff8800;
+    --radius: 50px;;
+}
+
+body {
+    /* background-color: #011212; */
+    background-color: var(--ground_color);
+}
+
+.ball {
+   /* width: 100px;
+    height: 100px;
+    background-color: #ff8800;
+    border-radius: 50px; */
+
+    width: var(--ball_width);
+    height: var(--ball_height);
+    background-color: var(--yellow);
+    border-radius: var(--radius);
+}
