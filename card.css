@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    border: 1px solid grey; 
+    width: 600px; 
+    font-weight: bold;
+    margin: auto;
+}
+article {
+    padding: 0px 10px;
+    border: 1px solid gray;
+}
+
+footer {
+    padding: 10px;
+}
+a {
+    margin: 0 10px;
+}
+img {
+    max-width: inherit;
+    max-height: inherit;
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+
+}
