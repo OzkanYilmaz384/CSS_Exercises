@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+nav {
+    background-color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a {
+    margin: auto 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#search:hover {
+    background-color: green;
+    color: white;
+}
+#text, #search {
+    padding: 10px;
+}
+
+.icon {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar ~ a, select, input, button {
+        display: none;
+    }
+    .icon {
+        float: right;
+        display: block;
+    }
+}
+
