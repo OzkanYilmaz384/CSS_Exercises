@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section.calculator {
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30px 40px 40px 40px 40px 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    gap: 1px;
+    
+    grid-template-areas: 
+        "result result result result"
+        "pluss minuss multiplee divv"
+        "number7 number8 number9 equal"
+        "number4 number5 number6 equal"
+        "number1 number2 number3 equal"
+        "number0 dot ac equal"
+}
+
+
+section {
+    width: 300px;
+    height: auto;
+    margin: 50px auto;
+    border: 2px solid white;
+    
+}
+
+.result {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+}
+.symbol {
+    background-color: rgb(178, 221, 207);
+}
+
+.number {
+    background-color: rgb(225, 238, 234);
+}
+
+.equal {
+    background-color: rgb(231, 119, 119);
+}
+
+#result {
+    grid-area: result;
+}
+
+#pluss {
+    grid-area: pluss;
+}
+
+#minuss {
+    grid-area: minuss;
+}
+
+#divv {
+    grid-area: divv;
+}
+
+#multiplee {
+    grid-area: multiplee;
+}
+
+#number1 {
+    grid-area: number1;
+}
+
+#number2 {
+    grid-area: number2;
+}
+
+#number3 {
+    grid-area: number3;
+}
+
+#number4 {
+    grid-area: number4;
+}
+
+#number5 {
+    grid-area: number5;
+}
+
+#number6 {
+    grid-area: number6;
+}
+
+#number7 {
+    grid-area: number7;
+}
+
+#number8 {
+    grid-area: number8;
+}
+
+#number9 {
+    grid-area: number9;
+}
+
+#number0 {
+    grid-area: number0;
+}
+
+#dot {
+    grid-area: dot;
+}
+
+#ac {
+    grid-area: ac;
+}
+
+#equal {
+    grid-area: equal;
+}
+
+#dot {
+    grid-area: dot;
+}
+
+#ac {
+    grid-area: ac;
+}
+
